@@ -1,9 +1,9 @@
 {
-  "include": ["**/*.ts"], // 타입스크립트 사용할 파일 지정
+  "include": ["**/*.ts"], // 타입스크립트 사용할 파일 경로 지정 (현재 root dir에 있는 모든 .ts 파일)
   "compilerOptions": {
     "outDir": "build", // ts->js로 빌드될 폴더 지정
     "target": "ES6", // 어떤 시점의 js로 빌드할지 지정
-    "lib": ["ES6", "DOM"], // 타입스크립트에게 어떤 API를 사용하고 어떤 환경에서 코드를 실행하는 지를 지정
+    "lib": ["ES6", "DOM"], // 타입스크립트에게 어떤 API를 사용하고 어떤 환경에서 코드를 실행하는 지를 지정, 필요하다면 추가해줘야함 "DOM" 처럼
     "strict": true, // 모든 엄격한 타입 검사 옵션을 활성화. *핵심 기능이다*   
     "esModuleInterop": true, // import xx from "xxx" 형태의 불러오기를 가능하게 해준다
     "module": "CommonJS"
