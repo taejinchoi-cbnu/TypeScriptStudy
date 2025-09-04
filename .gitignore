@@ -74,3 +74,6 @@ desktop.ini
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# claude
+.claude 
