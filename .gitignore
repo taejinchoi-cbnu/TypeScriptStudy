@@ -1,7 +1,16 @@
-/build
+# Dependencies
 /node_modules
-.vscode/*
-!.vscode/extensions.json
+/.pnp
+.pnp.js
+
+# TypeScript
+/build
+/dist
+*.tsbuildinfo
+.tsc-cache
+
+# Production
+/production
 
 # Logs
 logs
@@ -12,6 +21,56 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-dist
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/settings.json
+.idea
+*.swp
+*.swo
+*.swn
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Testing
+/coverage
+*.lcov
+.nyc_output
+
+# Temporary files
+*.tmp
+*.temp
+.cache
 dist-ssr
 *.local
+
+# OS generated files
+Thumbs.db
+desktop.ini
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn
+.yarn-integrity
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
