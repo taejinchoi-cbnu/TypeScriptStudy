@@ -75,5 +75,5 @@ desktop.ini
 !.yarn/sdks
 !.yarn/versions
 
-# claude
-.claude 
+# gemini
+.gemini
